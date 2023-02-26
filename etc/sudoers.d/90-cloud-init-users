@@ -1,0 +1,13 @@
+# Created by cloud-init v. 20.2-45-g5f7825e2-0ubuntu1~20.04.1 on Sat, 22 Aug 2020 09:27:58 +0000
+
+# User rules for root
+root ALL=(ALL) NOPASSWD:ALL
+
+# User rules for root
+root ALL=(ALL) NOPASSWD:ALL
+
+# User rules for root
+root ALL=(ALL) NOPASSWD:ALL
+
+# User rules for root
+root ALL=(ALL) NOPASSWD:ALL

@@ -1,0 +1,16 @@
+[Unit]
+Description=gunicorn daemon
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/home/sleekproject/sleeksoft
+ExecStart=/home/sleekproject/sleekenv/bin/gunicorn \
+	--access-logfile - \
+	--workers 3 \
+	--bind unix:/run/gunicorn.sock \
+	sleeksoft.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
